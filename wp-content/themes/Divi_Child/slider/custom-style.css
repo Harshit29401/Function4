@@ -1,0 +1,154 @@
+.testimonials {
+    margin: 62px 0 0;
+    padding: 0 0 78px 0;
+}
+
+.testimonial_cards {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 49px 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Added this */
+}
+
+.testimonial-container h2 {
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    gap:10px;
+    overflow-x: hidden; /* Prevent unwanted scrollbars */
+    width: 100%;
+    margin: 40px 0 0;
+}
+.slider {
+    position: relative;
+}
+.sliide {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sliide {
+    min-height: 100px !important;
+}
+.slide-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures spacing between top and bottom */
+    background-color: #EDF5F7;
+    margin: 0 20px;
+    border-radius: 0 0 10px 10px;
+    height: 100%; /* Make cards stretch to full height */
+    box-sizing: border-box;
+    /* width:95%; */
+}
+.sliide {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* height: 486px; Set a fixed height for all slides */
+}
+
+.slide-card-description {
+    padding: 20px;
+    flex-grow: 1; /* Make description grow to fill space */
+}
+
+img.slide-img {
+    width: 100%;
+    height: auto; /* Ensure image maintains aspect ratio */
+}
+
+.insight-date, .insight-description, .insight-link {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.insight-date {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.insight-description {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.insight-link a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #00B5D1;
+    text-decoration: none;
+}
+
+
+.sliide {
+    position: relative;
+}
+/* arrows */
+button.slick-next.slick-arrow {
+    background: url('./next.png') center center no-repeat;
+    font-size: 0px;
+    background-size: 80%;
+    border: 0px;
+    width: 16px;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top:50%;
+    margin: 0 0 0 50px; 
+}
+button.slick-prev.slick-arrow {
+    background: url('./pervious.png') center center no-repeat;
+    font-size: 0px;
+    background-size: 80%;
+    border: 0px;
+    width: 16px;
+    height: 26px;
+    position: absolute;
+    left:0;
+    margin: 0 50px 0 0; 
+    top:50%;
+    z-index: 1;
+}
+
+/* Dots */
+.slider .slick-dots{
+    /* position: absolute; */
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.slide-card-description p.insight-description {
+    min-height: 86px;
+}
+.slider .slick-dots li{
+    list-style: none;
+    width: 15px;
+    height:15px;
+    background: #EDF5F7;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px 0;
+}
+.slider .slick-dots li.slick-active{
+    background: #00B5D1;
+}
+.slider .slick-dots li button{
+    display: none;  
+}
