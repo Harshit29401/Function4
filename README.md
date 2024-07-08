@@ -51,10 +51,4 @@ This project uses the Divi Builder for designing the webpage and includes a cust
 4. **Database Schema**:
    - Import the `function4.sql` file into your MySQL database to set up the necessary tables and data structure.
 
-## **Getting Started**
 
-To set up the Divi Builder WordPress Webpage:
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/divi-builder-webpage.git
